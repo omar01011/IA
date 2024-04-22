@@ -32,6 +32,9 @@ Medida de rendimiento:
 ```
 # Reconocimiento facial
 ## Captura de rostro
+#### En este script lo que realizamos es la captira de los rostros con ayuda de la librería CV2 de python, la cuál nos permite hacer conexión con la cámara de la computadora
+#### Hice uso de la técnica de Haarcasade para poder identificar qué era un rostro y, con ayuda de la librería, poder resaltarlo en en cuadro vede y tomar un recorte de ese frame
+#### para posteriormente guardarlo y almacenarlo en la computadora para poder generar el archivo XML con el cual trabajaría más adelante.
 ```
 import numpy as np 
 import cv2 as cv
