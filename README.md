@@ -69,6 +69,8 @@ cap.release()
 cv.destroyAllWindows()
 ```
 ## Creación de XML 
+#### En este script, se toman las imagenes que se tomaron de los rostros en el script anterior y con ayuda de la librería OS accedemos a la carpeta donde se almacenaron para poder tratarlas junto con la
+#### librería CV2 que nos ayuda a leer y procesar estas imagenes para poder "entrenar" y generar un XML con el metodo faceRecognizer.train().
 ```
 import cv2 as cv 
 import numpy as np 
